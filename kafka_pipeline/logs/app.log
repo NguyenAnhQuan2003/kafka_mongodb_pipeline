@@ -1,0 +1,228 @@
+2025-11-05 14:16:47,101 - INFO - Starting test
+2025-11-05 14:16:47,101 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:47,103 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9094 <connecting> [IPv4 ('46.202.167.130', 9094)]>: connecting to 46.202.167.130:9094 [('46.202.167.130', 9094) IPv4]
+2025-11-05 14:16:48,073 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9094 <checking_api_versions_recv> [IPv4 ('46.202.167.130', 9094)]>: Broker version identified as 2.6
+2025-11-05 14:16:48,585 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9094 <authenticating> [IPv4 ('46.202.167.130', 9094)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:16:48,585 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Connection complete.
+2025-11-05 14:16:48,587 - INFO - Updating subscribed topics to: ('product_view',)
+2025-11-05 14:16:48,588 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:48,591 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:16:48,596 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <checking_api_versions_recv> [IPv6 ('::1', 9194, 0, 0)]>: Broker version identified as 2.6
+2025-11-05 14:16:48,597 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:16:48,597 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:16:48,820 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:48,821 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connecting> [IPv4 ('46.202.167.130', 9094)]>: connecting to 46.202.167.130:9094 [('46.202.167.130', 9094) IPv4]
+2025-11-05 14:16:48,923 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:48,924 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connecting> [IPv4 ('46.202.167.130', 9194)]>: connecting to 46.202.167.130:9194 [('46.202.167.130', 9194) IPv4]
+2025-11-05 14:16:49,030 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:49,031 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <connecting> [IPv4 ('46.202.167.130', 9294)]>: connecting to 46.202.167.130:9294 [('46.202.167.130', 9294) IPv4]
+2025-11-05 14:16:49,450 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <authenticating> [IPv4 ('46.202.167.130', 9094)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:16:49,450 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Connection complete.
+2025-11-05 14:16:49,450 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Closing connection. 
+2025-11-05 14:16:49,450 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:49,773 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <authenticating> [IPv4 ('46.202.167.130', 9194)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:16:49,773 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Connection complete.
+2025-11-05 14:16:49,773 - INFO - HOÀN TẤT! Đã chuyển 0 bản ghi vào Kafka bạn:
+2025-11-05 14:16:49,773 - INFO -   → part-1: 0 bản ghi
+2025-11-05 14:16:49,774 - INFO -   → part-2: 0 bản ghi
+2025-11-05 14:16:49,774 - INFO -   → part-3: 0 bản ghi
+2025-11-05 14:16:49,774 - INFO -   → part-4: 0 bản ghi
+2025-11-05 14:16:49,774 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Closing connection. 
+2025-11-05 14:16:49,774 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:49,774 - ERROR - Error sending FindCoordinatorRequest_v2 to node 0 [Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>]
+2025-11-05 14:16:49,774 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Closing connection. 
+2025-11-05 14:16:49,774 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:49,774 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <authenticating> [IPv4 ('46.202.167.130', 9294)]>: Closing connection. 
+2025-11-05 14:16:49,774 - WARNING - Sending username and password in the clear
+2025-11-05 14:16:49,775 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-11-05 14:16:49,775 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Closing connection. 
+2025-11-05 14:16:49,775 - WARNING - Sending username and password in the clear
+2025-11-05 14:18:59,363 - INFO - Starting test
+2025-11-05 14:18:59,364 - WARNING - Sending username and password in the clear
+2025-11-05 14:18:59,366 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9194 <connecting> [IPv4 ('46.202.167.130', 9194)]>: connecting to 46.202.167.130:9194 [('46.202.167.130', 9194) IPv4]
+2025-11-05 14:19:00,157 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9194 <checking_api_versions_recv> [IPv4 ('46.202.167.130', 9194)]>: Broker version identified as 2.6
+2025-11-05 14:19:00,787 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9194 <authenticating> [IPv4 ('46.202.167.130', 9194)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:19:00,787 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Connection complete.
+2025-11-05 14:19:00,789 - INFO - Updating subscribed topics to: ('product_view',)
+2025-11-05 14:19:00,790 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:00,792 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:19:00,798 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <checking_api_versions_recv> [IPv6 ('::1', 9194, 0, 0)]>: Broker version identified as 2.6
+2025-11-05 14:19:00,801 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:19:00,801 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:19:01,045 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:01,046 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connecting> [IPv4 ('46.202.167.130', 9194)]>: connecting to 46.202.167.130:9194 [('46.202.167.130', 9194) IPv4]
+2025-11-05 14:19:01,148 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:01,149 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connecting> [IPv4 ('46.202.167.130', 9094)]>: connecting to 46.202.167.130:9094 [('46.202.167.130', 9094) IPv4]
+2025-11-05 14:19:01,570 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:01,571 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <connecting> [IPv4 ('46.202.167.130', 9294)]>: connecting to 46.202.167.130:9294 [('46.202.167.130', 9294) IPv4]
+2025-11-05 14:19:01,784 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <authenticating> [IPv4 ('46.202.167.130', 9194)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:19:01,785 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Connection complete.
+2025-11-05 14:19:01,785 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Closing connection. 
+2025-11-05 14:19:01,785 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:02,135 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <authenticating> [IPv4 ('46.202.167.130', 9094)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:19:02,135 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Connection complete.
+2025-11-05 14:19:02,346 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <authenticating> [IPv4 ('46.202.167.130', 9294)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:19:02,346 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <connected> [IPv4 ('46.202.167.130', 9294)]>: Connection complete.
+2025-11-05 14:19:02,347 - INFO - Coordinator for group/test-transfer-1762327139 is BrokerMetadata(nodeId='coordinator-2', host='46.202.167.130', port=9294, rack=None)
+2025-11-05 14:19:02,347 - INFO - Discovered coordinator coordinator-2 for group test-transfer-1762327139
+2025-11-05 14:19:02,347 - INFO - Starting new heartbeat thread
+2025-11-05 14:19:02,348 - INFO - Revoking previously assigned partitions set() for group test-transfer-1762327139
+2025-11-05 14:19:02,348 - INFO - Failed to join group test-transfer-1762327139: NodeNotReadyError: coordinator-2
+2025-11-05 14:19:02,348 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:02,349 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-2 host=46.202.167.130:9294 <connecting> [IPv4 ('46.202.167.130', 9294)]>: connecting to 46.202.167.130:9294 [('46.202.167.130', 9294) IPv4]
+2025-11-05 14:19:02,454 - INFO - Failed to join group test-transfer-1762327139: NodeNotReadyError: coordinator-2
+2025-11-05 14:19:02,559 - INFO - Failed to join group test-transfer-1762327139: NodeNotReadyError: coordinator-2
+2025-11-05 14:19:02,662 - INFO - Failed to join group test-transfer-1762327139: NodeNotReadyError: coordinator-2
+2025-11-05 14:19:03,069 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-2 host=46.202.167.130:9294 <authenticating> [IPv4 ('46.202.167.130', 9294)]>: Authenticated as kafka via SASL / Plain
+2025-11-05 14:19:03,069 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-2 host=46.202.167.130:9294 <connected> [IPv4 ('46.202.167.130', 9294)]>: Connection complete.
+2025-11-05 14:19:03,069 - INFO - (Re-)joining group test-transfer-1762327139
+2025-11-05 14:19:03,373 - INFO - Received member id kafka-python-2.2.15-42e5bdb3-adde-4879-9c4f-096b9fd2a5dc for group test-transfer-1762327139; will retry join-group
+2025-11-05 14:19:03,373 - INFO - Failed to join group test-transfer-1762327139: [Error 79] MemberIdRequiredError
+2025-11-05 14:19:03,373 - INFO - (Re-)joining group test-transfer-1762327139
+2025-11-05 14:19:06,645 - INFO - Successfully joined group test-transfer-1762327139 <Generation 1 (member_id: kafka-python-2.2.15-42e5bdb3-adde-4879-9c4f-096b9fd2a5dc, protocol: range)>
+2025-11-05 14:19:06,645 - INFO - Elected group leader -- performing partition assignments using range
+2025-11-05 14:19:06,931 - INFO - Updated partition assignment: [TopicPartition(topic='product_view', partition=0), TopicPartition(topic='product_view', partition=1), TopicPartition(topic='product_view', partition=2)]
+2025-11-05 14:19:06,931 - INFO - Setting newly assigned partitions {TopicPartition(topic='product_view', partition=0), TopicPartition(topic='product_view', partition=1), TopicPartition(topic='product_view', partition=2)} for group test-transfer-1762327139
+2025-11-05 14:19:07,636 - INFO - Resetting offset for partition TopicPartition(topic='product_view', partition=0) to offset 9959054.
+2025-11-05 14:19:07,637 - INFO - Resetting offset for partition TopicPartition(topic='product_view', partition=2) to offset 9959335.
+2025-11-05 14:19:07,638 - INFO - Resetting offset for partition TopicPartition(topic='product_view', partition=1) to offset 9958871.
+2025-11-05 14:19:10,086 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:10,086 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2025-11-05 14:19:10,094 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=localhost:9094 <authenticating> [IPv6 ('::1', 9094, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:19:10,094 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2025-11-05 14:19:10,094 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Closing connection. 
+2025-11-05 14:19:10,094 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:10,098 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:10,098 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:19:10,100 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:19:10,100 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:19:10,201 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:10,202 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=2 host=localhost:9294 <connecting> [IPv6 ('::1', 9294, 0, 0)]>: connecting to localhost:9294 [('::1', 9294, 0, 0) IPv6]
+2025-11-05 14:19:10,208 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=2 host=localhost:9294 <authenticating> [IPv6 ('::1', 9294, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:19:10,208 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=2 host=localhost:9294 <connected> [IPv6 ('::1', 9294, 0, 0)]>: Connection complete.
+2025-11-05 14:19:10,513 - INFO - Đã chuyển 1000 bản ghi | {'part-1': 246, 'part-2': 241, 'part-3': 253, 'part-4': 260}
+2025-11-05 14:19:10,691 - INFO - Đã chuyển 2000 bản ghi | {'part-1': 498, 'part-2': 477, 'part-3': 500, 'part-4': 525}
+2025-11-05 14:19:10,806 - INFO - Đã chuyển 3000 bản ghi | {'part-1': 754, 'part-2': 703, 'part-3': 759, 'part-4': 784}
+2025-11-05 14:19:13,627 - INFO - Đã chuyển 4000 bản ghi | {'part-1': 1045, 'part-2': 940, 'part-3': 983, 'part-4': 1032}
+2025-11-05 14:19:14,420 - INFO - Đã chuyển 5000 bản ghi | {'part-1': 1284, 'part-2': 1179, 'part-3': 1234, 'part-4': 1303}
+2025-11-05 14:19:15,435 - INFO - Đã chuyển 6000 bản ghi | {'part-1': 1529, 'part-2': 1424, 'part-3': 1486, 'part-4': 1561}
+2025-11-05 14:19:17,558 - INFO - Đã chuyển 7000 bản ghi | {'part-1': 1783, 'part-2': 1646, 'part-3': 1740, 'part-4': 1831}
+2025-11-05 14:19:18,549 - INFO - Đã chuyển 8000 bản ghi | {'part-1': 2014, 'part-2': 1935, 'part-3': 1979, 'part-4': 2072}
+2025-11-05 14:19:20,704 - INFO - Đã chuyển 9000 bản ghi | {'part-1': 2246, 'part-2': 2195, 'part-3': 2255, 'part-4': 2304}
+2025-11-05 14:19:21,509 - INFO - Đã chuyển 10000 bản ghi | {'part-1': 2513, 'part-2': 2442, 'part-3': 2510, 'part-4': 2535}
+2025-11-05 14:19:21,536 - INFO - HOÀN TẤT! Đã chuyển 10000 bản ghi vào Kafka bạn:
+2025-11-05 14:19:21,536 - INFO -   → part-1: 2513 bản ghi
+2025-11-05 14:19:21,536 - INFO -   → part-2: 2442 bản ghi
+2025-11-05 14:19:21,536 - INFO -   → part-3: 2510 bản ghi
+2025-11-05 14:19:21,536 - INFO -   → part-4: 2535 bản ghi
+2025-11-05 14:19:21,737 - INFO - Stopping heartbeat thread
+2025-11-05 14:19:21,737 - INFO - Leaving consumer group (test-transfer-1762327139).
+2025-11-05 14:19:21,951 - INFO - LeaveGroup request for group test-transfer-1762327139 returned successfully
+2025-11-05 14:19:21,951 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=46.202.167.130:9194 <connected> [IPv4 ('46.202.167.130', 9194)]>: Closing connection. 
+2025-11-05 14:19:21,952 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,952 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=46.202.167.130:9094 <connected> [IPv4 ('46.202.167.130', 9094)]>: Closing connection. 
+2025-11-05 14:19:21,952 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,952 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <connected> [IPv4 ('46.202.167.130', 9294)]>: Closing connection. 
+2025-11-05 14:19:21,952 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,952 - INFO - Fetch to node 2 failed: Cancelled: <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=46.202.167.130:9294 <connected> [IPv4 ('46.202.167.130', 9294)]>
+2025-11-05 14:19:21,952 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-2 host=46.202.167.130:9294 <connected> [IPv4 ('46.202.167.130', 9294)]>: Closing connection. 
+2025-11-05 14:19:21,952 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,952 - INFO - <KafkaProducer client_id=kafka-python-producer-1 transactional_id=None>: Closing the Kafka producer with 9223372036.0 secs timeout.
+2025-11-05 14:19:21,953 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Closing connection. 
+2025-11-05 14:19:21,953 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,953 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Closing connection. 
+2025-11-05 14:19:21,953 - WARNING - Sending username and password in the clear
+2025-11-05 14:19:21,953 - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=2 host=localhost:9294 <connected> [IPv6 ('::1', 9294, 0, 0)]>: Closing connection. 
+2025-11-05 14:19:21,953 - WARNING - Sending username and password in the clear
+2025-11-05 14:38:07,548 - INFO - Bắt đầu xuất dữ liệu từ 4 topic → /Users/nguyenanhquan/Desktop/kafka_mongodb_pipeline/kafka_pipeline/data/data_tests
+2025-11-05 14:38:07,549 - WARNING - Sending username and password in the clear
+2025-11-05 14:38:07,552 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2025-11-05 14:38:07,562 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9094 <checking_api_versions_recv> [IPv6 ('::1', 9094, 0, 0)]>: Broker version identified as 2.6
+2025-11-05 14:38:07,566 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9094 <authenticating> [IPv6 ('::1', 9094, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:38:07,566 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2025-11-05 14:38:07,566 - INFO - Updating subscribed topics to: ('part-1', 'part-2', 'part-3', 'part-4')
+2025-11-05 14:40:17,691 - INFO - Bắt đầu xuất dữ liệu từ 4 topic → /Users/nguyenanhquan/Desktop/kafka_mongodb_pipeline/kafka_pipeline/data/data_tests
+2025-11-05 14:40:17,692 - WARNING - Sending username and password in the clear
+2025-11-05 14:40:17,695 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:40:17,700 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9194 <checking_api_versions_recv> [IPv6 ('::1', 9194, 0, 0)]>: Broker version identified as 2.6
+2025-11-05 14:40:17,702 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:40:17,702 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-2 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:40:17,702 - INFO - Updating subscribed topics to: ('part-1', 'part-2', 'part-3', 'part-4')
+2025-11-05 14:41:23,086 - INFO - Bắt đầu xuất dữ liệu từ 4 topic → /Users/nguyenanhquan/Desktop/kafka_mongodb_pipeline/kafka_pipeline/data/data_tests
+2025-11-05 14:41:23,086 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:23,089 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:41:23,096 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-1 host=localhost:9194 <checking_api_versions_recv> [IPv6 ('::1', 9194, 0, 0)]>: Broker version identified as 2.6
+2025-11-05 14:41:23,099 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:41:23,099 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:41:23,100 - INFO - Updating subscribed topics to: ('part-1', 'part-2', 'part-3', 'part-4')
+2025-11-05 14:41:23,104 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:23,104 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=localhost:9094 <connecting> [IPv6 ('::1', 9094, 0, 0)]>: connecting to localhost:9094 [('::1', 9094, 0, 0) IPv6]
+2025-11-05 14:41:23,207 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:23,208 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=localhost:9294 <connecting> [IPv6 ('::1', 9294, 0, 0)]>: connecting to localhost:9294 [('::1', 9294, 0, 0) IPv6]
+2025-11-05 14:41:23,316 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=localhost:9094 <authenticating> [IPv6 ('::1', 9094, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:41:23,316 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=0 host=localhost:9094 <connected> [IPv6 ('::1', 9094, 0, 0)]>: Connection complete.
+2025-11-05 14:41:23,316 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Closing connection. 
+2025-11-05 14:41:23,316 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:23,424 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=localhost:9294 <authenticating> [IPv6 ('::1', 9294, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:41:23,425 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=2 host=localhost:9294 <connected> [IPv6 ('::1', 9294, 0, 0)]>: Connection complete.
+2025-11-05 14:41:23,869 - INFO - Coordinator for group/export-group-1762328483 is BrokerMetadata(nodeId='coordinator-1', host='localhost', port=9194, rack=None)
+2025-11-05 14:41:23,869 - INFO - Discovered coordinator coordinator-1 for group export-group-1762328483
+2025-11-05 14:41:23,869 - INFO - Starting new heartbeat thread
+2025-11-05 14:41:23,869 - INFO - Revoking previously assigned partitions set() for group export-group-1762328483
+2025-11-05 14:41:23,869 - INFO - Failed to join group export-group-1762328483: NodeNotReadyError: coordinator-1
+2025-11-05 14:41:23,870 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:23,870 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:41:23,972 - INFO - Failed to join group export-group-1762328483: NodeNotReadyError: coordinator-1
+2025-11-05 14:41:24,076 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:41:24,076 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:41:24,076 - INFO - (Re-)joining group export-group-1762328483
+2025-11-05 14:41:24,087 - INFO - Received member id kafka-python-2.2.15-90683073-ebef-4983-a7f6-19da958e86d9 for group export-group-1762328483; will retry join-group
+2025-11-05 14:41:24,087 - INFO - Failed to join group export-group-1762328483: [Error 79] MemberIdRequiredError
+2025-11-05 14:41:24,087 - INFO - (Re-)joining group export-group-1762328483
+2025-11-05 14:41:27,106 - INFO - Successfully joined group export-group-1762328483 <Generation 1 (member_id: kafka-python-2.2.15-90683073-ebef-4983-a7f6-19da958e86d9, protocol: range)>
+2025-11-05 14:41:27,107 - INFO - Elected group leader -- performing partition assignments using range
+2025-11-05 14:41:27,131 - INFO - Updated partition assignment: [TopicPartition(topic='part-1', partition=0), TopicPartition(topic='part-2', partition=0), TopicPartition(topic='part-2', partition=1), TopicPartition(topic='part-3', partition=0), TopicPartition(topic='part-3', partition=1), TopicPartition(topic='part-3', partition=2), TopicPartition(topic='part-4', partition=0), TopicPartition(topic='part-4', partition=1), TopicPartition(topic='part-4', partition=2), TopicPartition(topic='part-4', partition=3)]
+2025-11-05 14:41:27,131 - INFO - Setting newly assigned partitions {TopicPartition(topic='part-1', partition=0), TopicPartition(topic='part-4', partition=2), TopicPartition(topic='part-3', partition=1), TopicPartition(topic='part-4', partition=0), TopicPartition(topic='part-4', partition=1), TopicPartition(topic='part-3', partition=0), TopicPartition(topic='part-2', partition=1), TopicPartition(topic='part-2', partition=0), TopicPartition(topic='part-3', partition=2), TopicPartition(topic='part-4', partition=3)} for group export-group-1762328483
+2025-11-05 14:41:27,136 - WARNING - Sending username and password in the clear
+2025-11-05 14:41:27,137 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=localhost:9194 <connecting> [IPv6 ('::1', 9194, 0, 0)]>: connecting to localhost:9194 [('::1', 9194, 0, 0) IPv6]
+2025-11-05 14:41:27,138 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=localhost:9194 <authenticating> [IPv6 ('::1', 9194, 0, 0)]>: Authenticated as admin via SASL / Plain
+2025-11-05 14:41:27,138 - INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=localhost:9194 <connected> [IPv6 ('::1', 9194, 0, 0)]>: Connection complete.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-4', partition=0) to offset 0.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-3', partition=0) to offset 0.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-1', partition=0) to offset 0.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-3', partition=1) to offset 0.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-4', partition=1) to offset 0.
+2025-11-05 14:41:27,139 - INFO - Resetting offset for partition TopicPartition(topic='part-2', partition=0) to offset 0.
+2025-11-05 14:41:27,140 - INFO - Resetting offset for partition TopicPartition(topic='part-3', partition=2) to offset 0.
+2025-11-05 14:41:27,140 - INFO - Resetting offset for partition TopicPartition(topic='part-4', partition=2) to offset 0.
+2025-11-05 14:41:27,140 - INFO - Resetting offset for partition TopicPartition(topic='part-4', partition=3) to offset 0.
+2025-11-05 14:41:27,140 - INFO - Resetting offset for partition TopicPartition(topic='part-2', partition=1) to offset 0.
+2025-11-05 14:41:27,251 - INFO - Đã xuất 1000 bản ghi...
+2025-11-05 14:41:27,370 - INFO - Đã xuất 2000 bản ghi...
+2025-11-05 14:41:27,453 - INFO - Đã xuất 3000 bản ghi...
+2025-11-05 14:41:27,537 - INFO - Đã xuất 4000 bản ghi...
+2025-11-05 14:41:27,618 - INFO - Đã xuất 5000 bản ghi...
+2025-11-05 14:41:27,700 - INFO - Đã xuất 6000 bản ghi...
+2025-11-05 14:41:27,786 - INFO - Đã xuất 7000 bản ghi...
+2025-11-05 14:41:27,845 - INFO - Đã xuất 8000 bản ghi...
+2025-11-05 14:41:28,461 - INFO - Đã xuất 9000 bản ghi...
+2025-11-05 14:41:29,036 - INFO - Đã xuất 10000 bản ghi...
+2025-11-05 14:45:44,500 - INFO - Stopping heartbeat thread
+2025-11-05 15:30:32,728 - INFO - Bắt đầu import từ: /Users/nguyenanhquan/Desktop/kafka_mongodb_pipeline/kafka_pipeline/data/data_tests/product_views.jsonl
+2025-11-05 15:30:32,729 - INFO - Connected to mongodb : Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'kafka_products'), 'product_view_testing')
+2025-11-05 15:30:32,734 - ERROR - LỖI KHI IMPORT: {'update_one': {'filter': {'_id': '4edf19db-eee2-4b13-b9ad-0ee8eca69eeb'}, 'update': {'$set': {'_id': '4edf19db-eee2-4b13-b9ad-0ee8eca69eeb', 'time_stamp': 1761501995, 'ip': '94.238.122.147', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 Safari/604.1', 'resolution': '414x896', 'user_id_db': '', 'device_id': 'b6978d28-1bff-4bcb-874b-7cf07674a2de', 'api_version': '1.0', 'store_id': '12', 'local_time': '2025-10-27 01:06:35', 'show_recommendation': None, 'current_url': 'https://www.glamira.fr/bague-pour-hommes-fantastic-spell-5-mm.html?gclid=CjwKCAjw5Ij2BRBdEiwA0Frc9b9940vz2c09kW-9opmh42V8apoMJ8qIJ86wAAiN_r-AWHixN8sCXBoCYBoQAvD_BwE&alloy=white-375', 'referrer_url': 'https://www.google.com', 'email_address': '', 'recommendation': False, 'utm_source': False, 'utm_medium': False, 'collection': 'view_product_detail', 'product_id': '106982', 'option': [{'option_label': 'alloy', 'option_id': '296171', 'value_label': '', 'value_id': '2425026'}, {'option_label': 'diamond', 'option_id': '', 'value_label': '', 'value_id': ''}], 'id': '4edf19db-eee2-4b13-b9ad-0ee8eca69eeb'}}, 'upsert': True}} is not a valid request
+2025-11-05 15:30:32,734 - INFO - Đã đóng kết nối MongoDB.
+2025-11-05 16:36:38,165 - INFO - Bắt đầu import từ: /Users/nguyenanhquan/Desktop/kafka_mongodb_pipeline/kafka_pipeline/data/data_tests/product_views.jsonl
+2025-11-05 16:36:38,167 - INFO - Connected to mongodb : Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'kafka_products'), 'product_view_testing')
+2025-11-05 16:36:38,240 - INFO - Đã import 1000 bản ghi...
+2025-11-05 16:36:38,278 - INFO - Đã import 2000 bản ghi...
+2025-11-05 16:36:38,311 - INFO - Đã import 3000 bản ghi...
+2025-11-05 16:36:38,342 - INFO - Đã import 4000 bản ghi...
+2025-11-05 16:36:38,369 - INFO - Đã import 5000 bản ghi...
+2025-11-05 16:36:38,395 - INFO - Đã import 6000 bản ghi...
+2025-11-05 16:36:38,420 - INFO - Đã import 7000 bản ghi...
+2025-11-05 16:36:38,446 - INFO - Đã import 8000 bản ghi...
+2025-11-05 16:36:38,473 - INFO - Đã import 9000 bản ghi...
+2025-11-05 16:36:38,494 - INFO - Đã import 10000 bản ghi...
+2025-11-05 16:36:38,494 - INFO - HOÀN TẤT IMPORT! → 10000 bản ghi vào kafka_products.product_view_testing
+2025-11-05 16:36:38,494 - INFO - Đã đóng kết nối MongoDB.
